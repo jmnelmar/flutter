@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:timer_app/src/pages/home_page.dart';
+
+
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget{
+
+  
+
   @override
   Widget build(BuildContext context)
   {
@@ -11,18 +17,15 @@ class MyApp extends StatelessWidget{
       theme: ThemeData(
         primarySwatch: Colors.blueGrey,
       ),
-      home:Scaffold(
-        appBar: AppBar(
-          title: Text('My Work Timer'),
-        ),
-        body: Center(
-          child: Text('My Work Timer')
-        ),
-      )
+      home:TimerHomePage()
       
     );
   }
+
+  void emptyMethod(){}
 }
+
+
 
 
 
