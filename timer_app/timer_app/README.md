@@ -1,6 +1,11 @@
 # TimerApp
 
-A new Flutter project.
+Application build as learning process in flutter.
+
+# Topics
+
+- LayoutBuilder
+- Custom widgets
 
 ## Getting Started
 
